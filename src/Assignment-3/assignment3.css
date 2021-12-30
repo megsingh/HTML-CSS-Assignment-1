@@ -5,3 +5,41 @@
 width: 100%;
 height: 100%;
 }
+
+.first-container , .second-container{
+    background-color: #F2F2F2;
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+
+.left, .right {
+    position: relative;
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+}
+
+.top, .bottom{
+    display: block;
+    height: 50%;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.second-container .top h1, .second-container .top p{
+    text-align: center;
+}
+
+.second-container .top button{
+    margin: 0px 0px 0px 900px;
+}
+
+#render-wiki, #render-dictionary{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+
