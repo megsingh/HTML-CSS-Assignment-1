@@ -5,3 +5,127 @@
 width: 100%;
 height: 100%;
 }
+
+body{
+    font-family: 'Raleway',sans-serif;
+}
+
+header{
+    background: linear-gradient(to right,#3F8DA7,#7ab6ca);
+    color: white;
+    height: 50px;
+    padding: 0px 25px;
+    border: 1.5px solid #3f8da78a;
+}
+
+header h1{
+    float: left;
+    text-indent: -9999px;
+    background: url('images/dog-icon.svg') no-repeat;
+    height: 35px;
+    width: 35px;
+    margin-top: 8px;
+}
+header nav{
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    padding: 17px 10px;
+}
+
+li a{
+    text-decoration: none;
+}
+nav li:hover{
+    background:#3F8DA7;
+    color: white;
+    cursor: pointer;
+}
+
+#hero{
+    background:url('images/background.jpg') no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0px;
+    margin-bottom: 50px;
+}
+
+#hero img{
+    display: block;
+    margin:auto;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    border: 3px solid #3F8DA7;
+}
+#hero h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.btn{
+    background: white;
+    border: 3px solid #3F8DA7;
+    color: #3F8DA7;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: #3F8DA7;
+    padding: 5px 10px;
+    color: white;
+}
+
+.three-col{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin:0px 10px;
+}
+
+.three-col h3{
+    color: #3F8DA7;
+    font-size: 22px;
+}
+.three-col img{
+    border-radius: 50%;
+    border: 3px solid #3F8DA7;
+    height: 200px;
+    width: 200px;
+    margin:25px 0px;
+}
+
+.three-col p{
+    margin-bottom: 30px;
+}
+
+footer{
+    background: #3F8DA7;
+    color: white;
+    margin-top: 40px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+footer h4{
+    margin-top: 15px;
+}
+footer ul{
+    margin: 40px 0px;
+}
+
+footer li{
+    display: inline-block;
+    margin: 0px 25px;
+}
+
+.link{
+    color: white;
+}
+
+.link:hover{
+    color: #92E0E5;
+}
